@@ -7,3 +7,4 @@ This is the c++ version of an interactive dictionary I created in which a user c
    - The second parameter can be left blank or must be either a part of speech, the key 'distinct', which filters out duplicate definitions, or the key 'reverse', which reverses the        display from A-Z (alphabetical order) to Z-A.
    - The third parameter can be left blank or must be either 'distinct' or 'reverse'.
    - The fourth and final parameter can be left blank or must be the key 'reverse'.
+3) The words that are part of the vocabulary of this dictionary are the following: arrow, book, bookable, bookbinder, csc210, csc220, csc340, placeholder, distinct, adverb, adjective, conjunction, interjection, noun, preposition, pronoun, verb, and reverse.
