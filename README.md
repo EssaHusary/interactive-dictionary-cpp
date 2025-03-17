@@ -1,4 +1,4 @@
-# interactive-dictionary-cpp
+# Interactive Dictionary, C++ version
 This is the c++ version of an interactive dictionary I created in which a user can look up the definition of words and apply search filters to their searches. 
 
 I did the following. I created a class called "DataSource". In this class, I read in the text file called, "Data.CS.SFSU.txt", and parsed and tokenized it. This is necessary as the text file contains dictionary terms along with their parts of speech and definitions. I stored this data in a map where the key is the definition term (a String) and the value is a part-of-speech & definition pair (a vector of vectors). Operations are performed on these data in a class called "DataOperations", where these operations include sorting definitions in alphabetical order, sorting definitions in reverse alphabetical order, and filtering out repeat definitions. Everything is put together in a function called finalProduct() in a class called "PuttingEverythingTogether", where the user is prompted to request dictionary definitions. This function, "finalProduct", is called in the class, "InteractiveDictionaryDriver", where main is stored.
