@@ -1,5 +1,9 @@
 # interactive-dictionary-cpp
-This is the c++ version of an interactive dictionary I created in which a user can look up the definition of words and apply search filters to their searches. Here is how it works:
+This is the c++ version of an interactive dictionary I created in which a user can look up the definition of words and apply search filters to their searches. 
+
+I did the following. I created a class called "DataSource". In this class, I read in the text file called, "Data.CS.SFSU.txt", and parsed and tokenized it. This is necessary as the text file contains dictionary terms along with their parts of speech and definitions. I stored this data in a map where the key is the definition term (a String) and the value is a part-of-speech & definition pair (a vector of vectors). 
+
+Here is how it works from the user's perspective:
 
 1) After where it says: "! Opening data file... ", type in "Data.CS.SFSU.txt". This opens up the text file that the program parses to attain words, parts of speech, and their definitions.
 2) After where it says "Search [X]: ", four parameters are possible:
